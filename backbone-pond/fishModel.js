@@ -8,5 +8,17 @@ var Fish = Backbone.Model.extend({
     description: 'Regular old fish',
     displayInfo: false
   }
-
 });
+
+  toggleDescription(){
+  this.state={
+  	description:on;
+
+  }
+  	return (
+        "tr",
+        { onClick: function onClick() {
+            return _this.setState({ description:!this.state.description });
+          } },
+  }
+
